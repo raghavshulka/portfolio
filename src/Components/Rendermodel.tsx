@@ -6,7 +6,7 @@ import { Environment, OrbitControls } from "@react-three/drei";
 
 const Rendermodel = () => {
   return (
-    <Canvas antialias={true}>
+    <Canvas >
       <Suspense fallback={<>...........</>}>
         <OrbitControls 
           enableZoom={false}
