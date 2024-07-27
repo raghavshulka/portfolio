@@ -8,13 +8,13 @@ const Rendermodel = () => {
   return (
     <Canvas >
       <Suspense fallback={<>...........</>}>
-        <OrbitControls 
+        {/* <OrbitControls 
           enableZoom={false}
           minPolarAngle={Math.PI / 2 - 0.1}
           maxPolarAngle={Math.PI / 2 + 0.1}
           minAzimuthAngle={-0.1}
           maxAzimuthAngle={0.1}
-        />
+        /> */}
         <Model />
         <Environment preset="park" />
       </Suspense>

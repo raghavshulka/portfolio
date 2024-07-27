@@ -7,8 +7,8 @@ import { Environment, OrbitControls } from '@react-three/drei'
 
 const RenderButterfly = () => {
   return (
-    <Canvas  flat linear 
-    style={{ width: "50vw", height: "85vh" }}
+    <Canvas  flat linear className=' flex justify-center items-center  '
+    // style={{ width: "50vw", height: "85vh" }}
     >
         <Suspense fallback={<>......</>}>
         <ambientLight intensity={1} />

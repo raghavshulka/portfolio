@@ -17,7 +17,7 @@ export function Butterfly(props) {
   }, [actions]);
   return (
     <group ref={group}  position={[0, -0.5, 3]}
-    scale={0.5}
+    scale={0.7}
     {...props} dispose={null}>
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model" rotation={[-Math.PI / 3, 0,1]}>

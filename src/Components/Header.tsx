@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="   mt-[100px]   flex flex-col items-center    text-white space-y-4 px-4">
+    <div className=" md:pl-[100px] pt-6 md:mt-[100px] flex flex-col items-center text-white space-y-4 px-4">
       <h1 className="text-5xl font-bold tracking-wide md:text-7xl">
         I am <span className="text-indigo-500">Himanshu</span>
       </h1>
